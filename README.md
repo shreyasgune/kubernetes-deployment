@@ -4,7 +4,7 @@ Helps explain how Kubernetes is deployed in Google Cloud.
 ## Initial Steps
 - Create a Google Cloud Account at `https://cloud.google.com/`
 - Install the GCP SDK from here `https://cloud.google.com/sdk/`
-- Make sure `gloud` works on your system. If it does not, add his to your `.bash_profile`
+- Make sure `gcloud` works on your system. If it does not, add his to your `.bash_profile`
 ```
 export GPATH=/Users/<yourlocation>/google-cloud-sdk/bin
 export PATH=$PATH:$GPATH
@@ -58,3 +58,8 @@ kubectl get services <cluster_name>
 - Browse to the `external-IP:port` to see if your webservice is running.
 
 - Scale it : `kubectl scale deployment <cluster_name> --replicas=<# of replicas ya want>`
+
+# My build 
+### My App @ http://35.190.141.75:8080/
+### Dockerhub Image : https://hub.docker.com/r/shreyasgune/kubernetes-app-174114/tags/
+### GCR Image : https://gcr.io/kubernetes-app-174114/shreyasgune/kubernetes-app-174114
