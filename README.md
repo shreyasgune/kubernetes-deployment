@@ -111,6 +111,5 @@ kubectl drain <node_name>
 
 
 # My build
-### My App @ http://35.190.141.75:8080/
 ### Dockerhub Image : https://hub.docker.com/r/shreyasgune/kubernetes-app-174114/tags/
 ### GCR Image : https://gcr.io/kubernetes-app-174114/shreyasgune/kubernetes-app-174114
